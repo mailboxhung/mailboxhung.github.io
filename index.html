@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Y Thư Việt – Tra cứu kiến thức y học cổ truyền và dưỡng sinh (Bản mẫu 2)</title>
+  <meta name="description" content="Y Thư Việt: trắc nghiệm thể chất, trà dưỡng sinh, món ăn bài thuốc, bài tập dưỡng sinh và tra cứu kiến thức y học cổ truyền.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="bo-qua" href="#noi-dung">Bỏ qua, tới nội dung chính</a>
+
+  <header class="dau-trang">
+    <div class="khung dau-trang__hang">
+      <a class="thuong-hieu" href="index.html" aria-label="Y Thư Việt – về Trang chủ">
+        <span class="thuong-hieu__huy-hieu"><img src="logo-y-thu-viet-bieu-tuong.svg" alt=""></span>
+        <span class="thuong-hieu__chu">
+          <span class="thuong-hieu__ten">Y Thư Việt</span>
+          <span class="thuong-hieu__phu">Tra cứu kiến thức y học cổ truyền</span>
+        </span>
+      </a>
+      <button class="nut-menu" type="button" aria-expanded="false" aria-controls="menu-chinh">
+        <span class="nut-menu__vach" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="nut-menu__chu">Menu</span>
+      </button>
+    </div>
+    <nav class="menu-chinh" id="menu-chinh" aria-label="Menu chính">
+      <ul class="khung">
+        <li><a href="index.html" aria-current="page">Trang chủ</a></li>
+        <li><a href="#">Kiến thức dưỡng sinh chung</a></li>
+        <li><a href="#">Tư vấn thể chất và trà dưỡng sinh</a></li>
+        <li><a href="#">Món ăn bài thuốc</a></li>
+        <li><a href="#">Bài tập dưỡng sinh</a></li>
+        <li><a href="#">Tra cứu kiến thức y học cổ truyền</a></li>
+        <li><a href="#">Giới thiệu Y Thư Việt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="noi-dung">
+
+    <!-- 1. Trắc nghiệm thể chất -->
+    <section class="trac-nghiem" aria-labelledby="tn-tieu-de">
+      <div class="khung trac-nghiem__luoi">
+        <div>
+          <span class="tieu-de-phu">Bắt đầu từ đây</span>
+          <h1 id="tn-tieu-de">Bạn thuộc thể chất nào?</h1>
+          <p class="trac-nghiem__mo-ta">Làm bài trắc nghiệm ngắn để biết thể chất của mình, rồi nhận gợi ý trà, món ăn và bài tập dưỡng sinh phù hợp.</p>
+          <ul class="diem-nhanh">
+            <li>Phân loại theo <strong>9 thể chất theo Trung y</strong></li>
+            <li>Chỉ khoảng <strong>5–10 câu hỏi</strong></li>
+            <li><strong>Không cần đăng nhập</strong> để làm</li>
+          </ul>
+          <div class="hang-nut">
+            <a class="nut nut--chinh" href="#hop-tn">Làm trắc nghiệm</a>
+            <a class="nut nut--vien" href="#" aria-label="Tư vấn trà với AI – sắp ra mắt">
+              Tư vấn trà với AI <span class="nhan nhan--sap">sắp ra mắt</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hop-tn" id="hop-tn" aria-labelledby="tn-hop-ten">
+          <div class="hop-tn__dau">
+            <h2 id="tn-hop-ten" class="hop-tn__buoc" style="font-size:1rem;margin:0"><span id="tn-buoc">Câu 1 / 3</span></h2>
+            <span class="nhan nhan--mau">Bản thử – câu hỏi và kết quả là mẫu</span>
+          </div>
+          <div class="thanh-tien" aria-hidden="true"><div class="thanh-tien__chay" id="tn-thanh"></div></div>
+          <div id="tn-noi-dung" aria-live="polite">
+            <noscript><p>Cần bật JavaScript để làm thử trắc nghiệm.</p></noscript>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Tìm kiếm -->
+    <section class="tim-kiem" aria-labelledby="tk-tieu-de">
+      <div class="khung">
+        <h2 id="tk-tieu-de">Bạn đang tìm gì?</h2>
+        <p>Tra vị thuốc, bài thuốc, trà dưỡng sinh hay bài tập – tất cả ở một chỗ.</p>
+        <form class="o-tim" role="search" action="#" onsubmit="return false;">
+          <label for="o-tim-kiem" class="an-chu">Tìm kiếm</label>
+          <input type="search" id="o-tim-kiem" name="q" placeholder="Tìm vị thuốc, bài thuốc, trà, bài tập..." autocomplete="off">
+          <button type="submit" class="nut nut--vang">Tìm kiếm</button>
+        </form>
+        <p style="margin-bottom:8px;font-weight:600;color:#fff">Chọn nhanh theo vấn đề:</p>
+        <ul class="chon-nhanh">
+          <li><a href="#">Mất ngủ</a></li>
+          <li><a href="#">Đau lưng</a></li>
+          <li><a href="#">Mệt mỏi</a></li>
+          <li><a href="#">Tiêu hoá kém</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. Gợi ý theo mùa -->
+    <section class="khoi" aria-labelledby="mua-tieu-de">
+      <div class="khung">
+        <div class="khoi__dau">
+          <span class="tieu-de-phu">Dưỡng sinh theo mùa</span>
+          <h2 id="mua-tieu-de">Gợi ý cho mùa thu</h2>
+        </div>
+        <div class="bang-mua">
+          <svg class="bang-mua__hinh" viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="32" cy="32" r="30" fill="#fff"/>
+            <path d="M32 12 C46 18 50 34 38 48 C30 40 22 30 32 12 Z" fill="#E8A87C"/>
+            <path d="M32 14 C34 28 36 38 38 48" stroke="#2F4F45" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <path d="M20 50 L44 50" stroke="#2F4F45" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+          <div class="bang-mua__chu">
+            <strong>Hiện đang là mùa thu – tiết Sương giáng</strong>
+            <p style="margin:4px 0 0">Theo y học cổ truyền, mùa thu khí hậu hanh khô, chú trọng <strong>dưỡng phế, nhuận táo</strong> (giữ ẩm, giữ ấm, ăn uống thanh nhuận).</p>
+          </div>
+        </div>
+        <div class="luoi luoi--3">
+          <article class="the">
+            <div class="the__hinh">
+              <svg viewBox="0 0 160 90" role="img" aria-label="Hình minh hoạ chén trà">
+                <rect width="160" height="90" fill="#EEF3EF"/>
+                <path d="M62 24 q-5 -6 0 -12 M80 24 q-5 -6 0 -12 M98 24 q-5 -6 0 -12" stroke="#2F4F45" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                <path d="M50 32 H110 V48 Q110 68 90 70 H70 Q50 68 50 48 Z" fill="#2F4F45"/>
+                <path d="M110 38 Q126 38 124 50 Q122 60 108 58" stroke="#2F4F45" stroke-width="5" fill="none"/>
+                <rect x="40" y="74" width="80" height="5" rx="2.5" fill="#2F4F45"/>
+              </svg>
+            </div>
+            <div class="the__dau"><span class="nhan nhan--chinh">Trà</span><span class="nhan nhan--mau">Nội dung mẫu</span></div>
+            <h3>Trà mẫu dưỡng phế mùa thu</h3>
+            <p>Gợi ý loại trà dịu nhẹ, theo y học cổ truyền thường dùng để hỗ trợ giữ ẩm cho phế khi trời hanh khô.</p>
+            <a class="the__link" href="tra.html">Xem trang trà mẫu →</a>
+          </article>
+          <article class="the">
+            <div class="the__hinh">
+              <svg viewBox="0 0 160 90" role="img" aria-label="Hình minh hoạ bát lê chưng">
+                <rect width="160" height="90" fill="#FBEDE2"/>
+                <path d="M80 18 C70 18 68 30 70 36 C60 42 58 58 72 64 H88 C102 58 100 42 90 36 C92 30 90 18 80 18 Z" fill="#E8A87C"/>
+                <path d="M80 18 V10 M80 12 Q88 8 92 12" stroke="#2F4F45" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                <path d="M42 56 H118 Q114 80 80 80 Q46 80 42 56 Z" fill="#2F4F45"/>
+              </svg>
+            </div>
+            <div class="the__dau"><span class="nhan nhan--chinh">Món ăn</span><span class="nhan nhan--mau">Nội dung mẫu</span></div>
+            <h3>Lê chưng đường phèn</h3>
+            <p>Món ăn quen thuộc mùa thu, theo y học cổ truyền thường dùng để nhuận táo, hỗ trợ khi họng khô.</p>
+            <a class="the__link" href="#">Xem công thức →</a>
+          </article>
+          <article class="the">
+            <div class="the__hinh">
+              <svg viewBox="0 0 160 90" role="img" aria-label="Hình minh hoạ người ngồi tập thở">
+                <rect width="160" height="90" fill="#E3EEE9"/>
+                <circle cx="80" cy="24" r="9" fill="#2F4F45"/>
+                <path d="M80 34 V58 M80 40 L62 52 M80 40 L98 52 M58 70 Q80 56 102 70" stroke="#2F4F45" stroke-width="5" fill="none" stroke-linecap="round"/>
+                <path d="M110 30 q8 4 0 8 q-8 4 0 8 M120 26 q8 4 0 8 q-8 4 0 8" stroke="#E8A87C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="the__dau"><span class="nhan nhan--chinh">Bài tập</span><span class="nhan nhan--mau">Nội dung mẫu</span></div>
+            <h3>Bài thở chậm buổi sáng</h3>
+            <p>Bài thở nhẹ nhàng, ngồi thẳng lưng, hít sâu thở chậm vài phút mỗi sáng khi thời tiết chuyển lạnh.</p>
+            <a class="the__link" href="#">Xem hướng dẫn →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Bài mới -->
+    <section class="khoi khoi--xam" aria-labelledby="bm-tieu-de">
+      <div class="khung">
+        <div class="khoi__dau">
+          <span class="tieu-de-phu">Cập nhật</span>
+          <h2 id="bm-tieu-de">Bài mới</h2>
+          <p>Bài phổ thông được duyệt trước khi đăng.</p>
+        </div>
+        <div class="luoi luoi--4">
+          <a class="the the--link" href="#">
+            <div class="the__dau"><span class="nhan nhan--chinh">Dưỡng sinh</span><span class="nhan nhan--mau">Nội dung mẫu</span></div>
+            <h3>Tìm hiểu 9 thể chất theo Trung y</h3>
+            <p>Giới thiệu ngắn gọn từng thể chất và cách nhận biết.</p>
+            <span class="the__link">Đọc bài →</span>
+          </a>
+          <a class="the the--link" href="#">
+            <div class="the__dau"><span class="nhan nhan--chinh">Chăm sóc</span><span class="nhan nhan--mau">Nội dung mẫu</span></div>
+            <h3>Mất ngủ: vài thói quen dưỡng sinh buổi tối</h3>
+            <p>Những điều chỉnh sinh hoạt đơn giản trước giờ ngủ.</p>
+            <span class="the__link">Đọc bài →</span>
+          </a>
+          <a class="the the--link" href="#">
+            <div class="the__dau"><span class="nhan nhan--chinh">Bài tập</span><span class="nhan nhan--mau">Nội dung mẫu</span></div>
+            <h3>Xoa bóp vùng thắt lưng đơn giản tại nhà</h3>
+            <p>Các động tác nhẹ nhàng, có thể tự làm mỗi ngày.</p>
+            <span class="the__link">Đọc bài →</span>
+          </a>
+          <a class="the the--link" href="vi-thuoc.html">
+            <div class="the__dau"><span class="nhan nhan--chinh">Tra cứu</span><span class="nhan nhan--mau">Nội dung mẫu</span></div>
+            <h3>Hoàng kỳ – vị thuốc bổ khí quen thuộc</h3>
+            <p>Tính vị, quy kinh, công năng và các bài thuốc có Hoàng kỳ.</p>
+            <span class="the__link">Đọc bài →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Từ cổ thư đến thực hành -->
+    <section class="khoi" aria-labelledby="ct-tieu-de">
+      <div class="khung co-thu__luoi">
+        <div>
+          <span class="tieu-de-phu">Nguồn kiến thức</span>
+          <h2 id="ct-tieu-de">Từ cổ thư đến thực hành</h2>
+          <p>Nội dung dễ hiểu cho người tập dưỡng sinh được xây trên nền kiến thức chuyên sâu có cơ sở.</p>
+          <ul class="danh-sach-nguon">
+            <li><span class="bieu-tuong-tron" aria-hidden="true">1</span><span><strong>Dựa trên sách y thư cổ, giáo trình và tài liệu tham khảo</strong>Mỗi mục tra cứu có ghi nguồn.</span></li>
+            <li><span class="bieu-tuong-tron" aria-hidden="true">2</span><span><strong>Nội dung chuyên sâu do thầy thuốc viết</strong>Dành cho sinh viên y học cổ truyền và thầy thuốc.</span></li>
+            <li><span class="bieu-tuong-tron" aria-hidden="true">3</span><span><strong>Bài phổ thông được duyệt trước khi đăng</strong>Dễ hiểu, dễ áp dụng trong đời sống hằng ngày.</span></li>
+          </ul>
+          <a class="nut nut--chinh" href="#">Vào mục Tra cứu kiến thức y học cổ truyền</a>
+        </div>
+        <div class="con-so" role="list" aria-label="Một vài con số">
+          <div class="con-so__o" role="listitem"><span class="con-so__so">9</span><span class="con-so__nhan">thể chất theo Trung y</span></div>
+          <div class="con-so__o" role="listitem"><span class="con-so__so">Vài trăm</span><span class="con-so__nhan">phẩm trà dưỡng sinh Trà Hoa Khế</span></div>
+          <div class="con-so__o" role="listitem"><span class="con-so__so">5–10</span><span class="con-so__nhan">câu trắc nghiệm để xác định thể chất</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. Nhắc an toàn + chân trang -->
+  <aside class="nhac-an-toan" aria-label="Lưu ý an toàn">
+    <div class="khung">
+      <p><span class="nhac-an-toan__dau" aria-hidden="true">!</span><span><strong>Lưu ý:</strong> Thông tin trên website chỉ để tham khảo, không thay thế việc khám và điều trị.</span></p>
+    </div>
+  </aside>
+
+  <footer class="chan-trang">
+    <div class="khung">
+      <div class="chan-trang__luoi">
+        <div>
+          <div class="logo-o-kem"><img src="logo-y-thu-viet.svg" alt="Logo Y Thư Việt – Tra cứu kiến thức y học cổ truyền" width="124" height="124"></div>
+          <p style="margin-top:12px">Website tra cứu kiến thức y học cổ truyền và dưỡng sinh.</p>
+        </div>
+        <div>
+          <h2>Liên hệ</h2>
+          <ul>
+            <li>Zalo: <a href="https://zalo.me/0975036344" target="_blank" rel="noopener">0975036344</a></li>
+            <li>Email: <a href="mailto:tomjenny.home@gmail.com">tomjenny.home@gmail.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Trà Hoa Khế</h2>
+          <p>Trà Hoa Khế là thương hiệu trà cùng chủ với Y Thư Việt.</p>
+        </div>
+      </div>
+      <p class="chan-trang__cuoi">© Y Thư Việt · Bản mẫu giao diện 2 – nội dung đánh dấu “mẫu” chưa phải nội dung chính thức.</p>
+    </div>
+  </footer>
+
+  <a class="zalo-noi" href="https://zalo.me/0975036344" target="_blank" rel="noopener" aria-label="Nhắn Zalo cho Y Thư Việt: 0975036344 (mở trang mới)">
+    <span class="zalo-noi__tron" aria-hidden="true">Zalo</span><span aria-hidden="true">Nhắn Zalo</span>
+  </a>
+
+  <script src="chung.js"></script>
+</body>
+</html>

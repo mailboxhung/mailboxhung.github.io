@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="160 160 290 250" role="img" aria-label="Trà Hoa Khế – Trà dưỡng sinh cho mỗi người">
+  <rect width="600" height="600" fill="#EEF3EF"/>
+  <g fill="none" stroke="#2F4F45" stroke-width="5" stroke-linecap="round">
+    <path d="M272 228 q-10 -12 0 -24 q10 -12 0 -24"/>
+    <path d="M300 228 q-10 -12 0 -24 q10 -12 0 -24"/>
+    <path d="M328 228 q-10 -12 0 -24 q10 -12 0 -24"/>
+  </g>
+  <path d="M212 248 H388 V296 Q388 360 326 370 H274 Q212 360 212 296 Z" fill="#2F4F45"/>
+  <path d="M388 266 Q436 262 430 304 Q424 338 382 334" fill="none" stroke="#2F4F45" stroke-width="13" stroke-linecap="round"/>
+  <rect x="182" y="382" width="236" height="12" rx="6" fill="#2F4F45"/>
+  <path d="M298 352 Q258 326 276 268 Q336 282 324 344 Q312 354 298 352 Z" fill="#EEF3EF"/>
+  <path d="M300 346 Q296 312 282 280" fill="none" stroke="#2F4F45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M296 322 L312 310 M291 304 L306 292" fill="none" stroke="#2F4F45" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

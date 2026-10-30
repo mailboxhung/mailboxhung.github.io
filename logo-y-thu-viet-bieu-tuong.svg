@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="170 176 260 210" role="img" aria-label="Y Thư Việt – Tra cứu kiến thức y học cổ truyền">
+  <rect x="0" y="0" width="600" height="600" fill="#EEF3EF"/>
+  <g transform="translate(0 26)">
+    <!-- Cân tiểu ly -->
+    <circle cx="300" cy="166" r="6" fill="none" stroke="#2F4F45" stroke-width="4"/>
+    <path d="M300 172 V200" stroke="#2F4F45" stroke-width="4"/>
+    <rect x="206" y="200" width="188" height="8" rx="4" fill="#2F4F45"/>
+    <path d="M240 206 L212 266 M240 206 L268 266 M370 206 V232" fill="none" stroke="#2F4F45" stroke-width="3"/>
+    <path d="M200 266 Q240 296 280 266 Z" fill="#2F4F45"/>
+    <path d="M360 232 H380 L386 258 H354 Z" fill="#2F4F45"/>
+    <!-- Thang thuốc trên đĩa cân -->
+    <path d="M216 266 L223 238 H257 L264 266 Z" fill="#2F4F45"/>
+    <path d="M223 238 L240 228 L257 238 Z" fill="#2F4F45"/>
+    <path d="M240 231 V264 M219 252 H261" fill="none" stroke="#EEF3EF" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Sách cổ -->
+    <rect x="186" y="304" width="228" height="48" rx="3" fill="#2F4F45"/>
+    <g fill="none" stroke="#EEF3EF" stroke-width="3" stroke-linecap="round">
+      <path d="M210 304 V352"/>
+      <path d="M190 316 H210 M190 328 H210 M190 340 H210"/>
+      <path d="M222 344 H404"/>
+    </g>
+    <rect x="232" y="312" width="14" height="24" fill="#EEF3EF"/>
+  </g>
+</svg>
